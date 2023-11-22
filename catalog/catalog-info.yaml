@@ -10,7 +10,7 @@ metadata:
     - web
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector':'app.kubernetes.io/part-of: tanzu-java-web-app-mathys'
+    'backstage.io/kubernetes-label-selector':'app.kubernetes.io/part-of=tanzu-java-web-app-mathys'
 spec:
   type: service
   lifecycle: experimental
