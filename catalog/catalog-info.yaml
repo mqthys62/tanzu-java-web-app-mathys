@@ -10,7 +10,6 @@ metadata:
     - web
     - tanzu
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app=yelb-ui,tier=frontend'
      app.kubernetes.io/part-of: tanzu-java-web-app-mathys
 spec:
   type: service
